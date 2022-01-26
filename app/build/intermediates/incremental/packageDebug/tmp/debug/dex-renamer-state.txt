@@ -1,0 +1,4 @@
+#Mon Sep 28 19:44:55 IST 2020
+base.0=C\:\\Users\\Windows  8\\AndroidStudioProjects\\woman_safety\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
