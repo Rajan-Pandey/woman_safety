@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#0080B3">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:onClick="register"
+        android:layout_marginBottom="71dp"
+        android:text="Register"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="74dp"
+        android:onClick="display_no"
+        android:text="@string/view_registered"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="instruct"
+        android:layout_centerVertical="true"
+        android:text="Instructions"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rounded_corner"
+        android:onClick="verify"
+        android:text="Register Your Mobile Number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="504dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginRight="71dp" />
+
+
+</RelativeLayout>

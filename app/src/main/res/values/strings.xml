@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Women Safety</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_verify">Verify</string>
+    <string name="help">"Please follow the below steps to setup your account"\n\n\n"1.Register Your Phone Number"\n"2.Register Your Guardian Number"\n"3.Always maintain Working internet connection"\n"4.Keep Location Enable."\n\n\n""  "LET'S START NOW!</string>
+    <string name="get_current_location">Get Location And Send SMS </string>
+    <string name="enter_your_mobile_number">ENTER YOUR MOBILE NUMBER</string>
+    <string name="click_send_sms_in_case_of_emergency">CLICK SEND SMS IN CASE OF EMERGENCY</string>
+    <string name="view_registered">View Registered</string>
+    <string name="name">Name:</string>
+    <string name="number">Number:</string>
+</resources>
